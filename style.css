@@ -1,0 +1,46 @@
+#navbar{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li{
+    list-style-type: none;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+  
+}
+
+.Container{
+    display: grid;
+    color: black;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+
+.Gamecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.box:hover{
+    background: rgb(224, 234, 237);
+}
+
+
+
